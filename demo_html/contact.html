@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Us – Sanat's Perfect Cakes</title>
+    <meta name="description" content="Reach out to Sanat's Perfect Cakes for custom orders, event consultations, or general inquiries." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="brand-logo">Sanat's Perfect Cakes</a>
+            <nav class="main-nav" id="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery & Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section-padding">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p>Have a question, custom cake idea, or need a quote? We're here to help!</p>
+            </div>
+        </section>
+
+        <section class="contact-section section-padding">
+            <div class="container contact-container">
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <p>Use this form to reach out for custom orders, availability, event collaborations, or any general queries.</p>
+
+                    <form id="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject / Cake Type:</label>
+                            <input type="text" id="subject" name="subject" required placeholder="e.g., Wedding Cake, Custom Order" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="event-date">Event Date (Optional):</label>
+                            <input type="date" id="event-date" name="event-date" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your event, design ideas, flavors, and more..."></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+
+                    <p id="form-status" class="form-status"></p> <!-- Dynamic message via JS -->
+                </div>
+
+                <div class="contact-details">
+                    <h2>Contact Information</h2>
+                    <p><strong>Address:</strong><br>
+                        22 Rose Blossom Lane<br>
+                        Chandigarh, Punjab, 160019<br>
+                        <em>(Visits by appointment only)</em>
+                    </p>
+
+                    <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:orders@sanatscakes.com">orders@sanatscakes.com</a></p>
+
+                    <h3>Business Hours</h3>
+                    <p>Tuesday – Friday: 10:00 AM – 6:00 PM</p>
+                    <p>Saturday: 10:00 AM – 4:00 PM</p>
+                    <p>Sunday & Monday: Closed</p>
+
+                    <!-- Optional Map Section -->
+                    <!--
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Sanat's Perfect Cakes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

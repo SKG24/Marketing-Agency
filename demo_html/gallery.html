@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cake Gallery & Shop – Sanat's Perfect Cakes</title>
+    <meta name="description" content="Browse our artisan cake collection. View details, pricing, and request a custom order." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="brand-logo">Sanat's Perfect Cakes</a>
+            <nav class="main-nav" id="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery & Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section-padding">
+            <div class="container">
+                <h1>Our Cake Collection</h1>
+                <p>Browse our signature creations or get in touch for something custom-made just for you.</p>
+            </div>
+        </section>
+
+        <section class="cake-gallery section-padding">
+            <div class="container">
+                <div class="cake-grid shop-grid">
+
+                    <!-- Cake Item 1 -->
+                    <div class="cake-card" id="cake1">
+                        <img src="https://source.unsplash.com/random/400x300/?cake,chocolate,fudge" alt="Classic Chocolate Fudge Cake" loading="lazy">
+                        <h3>Classic Chocolate Fudge</h3>
+                        <p>Rich, decadent chocolate cake with silky fudge frosting. A timeless indulgence.</p>
+                        <span class="price">$55.00</span>
+                        <button class="cta-button add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                    <!-- Cake Item 2 -->
+                    <div class="cake-card" id="cake2">
+                        <img src="https://source.unsplash.com/random/400x300/?cake,strawberry,cream" alt="Strawberry Dream Cake" loading="lazy">
+                        <h3>Strawberry Dream</h3>
+                        <p>Fluffy vanilla sponge layered with whipped cream and fresh strawberries.</p>
+                        <span class="price">$60.00</span>
+                        <button class="cta-button add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                    <!-- Cake Item 3 -->
+                    <div class="cake-card" id="cake3">
+                        <img src="https://source.unsplash.com/random/400x300/?cake,custom,celebration" alt="Custom Celebration Cake" loading="lazy">
+                        <h3>Custom Celebration Cake</h3>
+                        <p>Tailor-made for birthdays, weddings, and events. Fully customizable designs.</p>
+                        <span class="price">Starting at $80.00</span>
+                        <a href="contact.html" class="button-secondary">Request Quote</a>
+                    </div>
+
+                    <!-- Cake Item 4 -->
+                    <div class="cake-card" id="cake4">
+                        <img src="https://source.unsplash.com/random/400x300/?cake,red,velvet" alt="Red Velvet Delight Cake" loading="lazy">
+                        <h3>Red Velvet Delight</h3>
+                        <p>Classic red velvet with cream cheese frosting. Rich, vibrant, and delicious.</p>
+                        <span class="price">$58.00</span>
+                        <button class="cta-button add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                    <!-- Cake Item 5 -->
+                    <div class="cake-card" id="cake5">
+                        <img src="https://source.unsplash.com/random/400x300/?cake,lemon,tart" alt="Lemon Zest Cake" loading="lazy">
+                        <h3>Lemon Zest Cake</h3>
+                        <p>Tangy lemon sponge topped with light glaze. A perfect brunch companion.</p>
+                        <span class="price">$50.00</span>
+                        <button class="cta-button add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                    <!-- Cake Item 6 -->
+                    <div class="cake-card" id="cake6">
+                        <img src="https://source.unsplash.com/random/400x300/?cupcakes" alt="Assorted Cupcakes" loading="lazy">
+                        <h3>Assorted Cupcakes</h3>
+                        <p>A mixed dozen of our most-loved cupcake flavors. Great for gatherings.</p>
+                        <span class="price">$36.00 / dozen</span>
+                        <button class="cta-button add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <p class="disclaimer text-center top-margin">
+                    <strong>Note:</strong> Cart functionality is a placeholder. To place orders or make inquiries, please use the <a href="contact.html">Contact Form</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Sanat's Perfect Cakes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

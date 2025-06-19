@@ -1,0 +1,18 @@
+{
+  "eval_set_id": "evalset2f9e67",
+  "name": "evalset2f9e67",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case83352e",
+      "conversation": [],
+      "session_input": {
+        "app_name": "marketing_agency",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1750328427.4830248
+    }
+  ],
+  "creation_timestamp": 1750328421.55024
+}

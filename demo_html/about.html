@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About Sanat – Sanat's Perfect Cakes</title>
+    <meta name="description" content="Discover the passion, craft, and quality behind Sanat's Perfect Cakes. Learn what makes our cakes unforgettable." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="brand-logo">Sanat's Perfect Cakes</a>
+            <nav class="main-nav" id="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery & Shop</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section-padding">
+            <div class="container">
+                <h1>Our Story</h1>
+                <p>Crafting joy, one perfect cake at a time.</p>
+            </div>
+        </section>
+
+        <section class="about-content section-padding">
+            <div class="container about-container">
+                <div class="about-image">
+                    <img src="https://source.unsplash.com/random/500x400/?baker,portrait" alt="Sanat the baker" loading="lazy" />
+                </div>
+                <div class="about-text">
+                    <h2>Meet Sanat</h2>
+                    <p>From a young age, Sanat found magic in the kitchen. What began as weekend baking experiments turned into a passionate pursuit of perfection. With years of practice, training, and an uncompromising love for quality, Sanat has created a name synonymous with flavor, artistry, and emotion. His cakes aren't just desserts—they're memories in the making.</p>
+
+                    <h3>Our Mission</h3>
+                    <p>Our mission is simple: to make every celebration unforgettable with cakes that are as stunning as they are delicious. At Sanat's Perfect Cakes, we believe in creating moments that people cherish forever—with every bite as memorable as the occasion itself.</p>
+
+                    <h3>Quality & Ingredients</h3>
+                    <p>We believe that great cakes start with great ingredients. That's why we use only the finest components—from rich Belgian chocolate and pure Madagascar vanilla to fresh, locally sourced fruits and dairy. Every element is selected with care to deliver impeccable taste and texture.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Optional Section: Our Values -->
+        <!--
+        <section class="values section-padding bg-light">
+            <div class="container">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div>
+                        <i class="fas fa-heart"></i>
+                        <h3>Passion</h3>
+                        <p>Passion is the secret ingredient in every cake we make.</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <h3>Quality</h3>
+                        <p>We never compromise on quality, from ingredients to final finish.</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-smile"></i>
+                        <h3>Customer Joy</h3>
+                        <p>We bake to make people smile—that’s our ultimate goal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Sanat's Perfect Cakes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Auto-update year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

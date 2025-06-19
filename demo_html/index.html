@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonio's Perfect Cakes - Artisan Cakes in San Diego</title>
+  <meta name="description" content="Antonio's Perfect Cakes offers handcrafted artisan cakes for weddings, birthdays, and special moments in San Diego. View our gallery and request your custom cake today." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo">Antonio's Perfect Cakes</a>
+      <nav class="main-nav" id="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="gallery.html">Gallery & Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Elegant Cakes Baked with Love</h1>
+        <p class="subtitle">From intimate birthdays to grand weddings—Antonio’s creations make every occasion sweeter.</p>
+        <a href="gallery.html" class="cta-button">Browse Our Cakes</a>
+      </div>
+    </section>
+
+    <!-- Featured Cakes -->
+    <section class="featured-cakes section-padding">
+      <div class="container">
+        <h2>Featured Creations</h2>
+        <div class="cake-grid">
+          <!-- Cake 1 -->
+          <div class="cake-card">
+            <img src="https://source.unsplash.com/400x300/?chocolate,cake" alt="Decadent Chocolate Cake" loading="lazy" />
+            <h3>Decadent Chocolate Fudge</h3>
+            <p>Rich and moist chocolate cake layered with silky fudge frosting.</p>
+            <span class="price">$55.00</span>
+            <a href="gallery.html#cake1" class="button-secondary">View Details</a>
+          </div>
+
+          <!-- Cake 2 -->
+          <div class="cake-card">
+            <img src="https://source.unsplash.com/400x300/?wedding,cake" alt="Elegant Wedding Cake" loading="lazy" />
+            <h3>Elegant Wedding Cake</h3>
+            <p>Three-tiered vanilla and almond cake with floral detailing.</p>
+            <span class="price">Starts at $150.00</span>
+            <a href="gallery.html#cake3" class="button-secondary">View Details</a>
+          </div>
+
+          <!-- Cake 3 -->
+          <div class="cake-card">
+            <img src="https://source.unsplash.com/400x300/?birthday,cake" alt="Custom Birthday Cake" loading="lazy" />
+            <h3>Custom Birthday Surprise</h3>
+            <p>Your imagination baked! Choose flavor, theme, and style.</p>
+            <span class="price">From $45.00</span>
+            <a href="gallery.html#cake2" class="button-secondary">View Details</a>
+          </div>
+        </div>
+
+        <div class="text-center top-margin">
+          <a href="gallery.html" class="cta-button">See All Cakes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-snippet section-padding bg-light">
+      <div class="container">
+        <h2>Meet Antonio</h2>
+        <img src="https://via.placeholder.com/150x150.png?text=Antonio" alt="Photo of Antonio, the pastry chef" class="profile-pic-small" />
+        <p>With over 15 years of baking excellence, Antonio blends classic techniques with modern flair. From choosing the finest ingredients to crafting every detail by hand, he pours passion into every creation.</p>
+        <a href="about.html" class="button-secondary">Learn More About Us</a>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section section-padding">
+      <div class="container text-center">
+        <h2>Ready to Order Your Dream Cake?</h2>
+        <p>Get in touch for custom designs or browse our gallery for inspiration.</p>
+        <a href="contact.html" class="cta-button">Request a Custom Cake</a>
+        <a href="gallery.html" class="button-secondary">Explore Full Collection</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Antonio's Perfect Cakes. All Rights Reserved.</p>
+      <!-- Optional: Add social links -->
+      <!-- <ul class="social-links">
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      </ul> -->
+    </div>
+  </footer>
+
+  <script>
+    // Automatically insert the current year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
