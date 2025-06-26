@@ -13,6 +13,8 @@ This AI-powered assistant enhances creative agency capabilities through a sophis
 4. **Logo agent** - Custom logo creation with thematic consistency
 5. **Email agent** - Automated email marketing and outreach
 
+![Image](https://github.com/SKG24/Marketing-Agency/blob/main/event_detail.png)
+
 ## 🎯 Core Agents
 
 ### 1. Domain Selection Agent 🌐
@@ -59,6 +61,9 @@ This AI-powered assistant enhances creative agency capabilities through a sophis
 - **Features**:
   - Email template design
 
+
+![Image](https://github.com/SKG24/Marketing-Agency/blob/main/event.png)
+
 ## 💼 Use Cases
 
 ### For Creative Agencies
@@ -78,3 +83,5 @@ This AI-powered assistant enhances creative agency capabilities through a sophis
 - **Efficiency Gains**: Handle larger projects with automated assistance
 - **Quality Consistency**: Maintain high standards across all deliverables
 - **Competitive Advantage**: Differentiate with AI-powered capabilities
+
+![Demo Video](https://github.com/SKG24/Marketing-Agency/blob/main/session_rec.mov)
